@@ -68,23 +68,21 @@ where $\tau_L(\cdot)$ truncates the sequence to the maximum allowed token length
 
 For each entity, one-hop graph neighborhoods are extracted from the training graph:
 
-
-```math id="fjj7c4"
+math
 \mathcal{N}_K(e)
-```
-where $K$ denotes the maximum neighborhood size.  
+
+
+where (K) denotes the maximum neighborhood size.
 
 Neighborhood context is constructed by concatenating neighboring relations and entities:
 
-```math 
-\mathbf{c}(e) = \operatorname{concat}(r', e')
-```
+math
+\mathbf{c}(e) = \mathrm{concat}(r', e')
+
 
 Only neighborhoods from the training split are used to avoid information leakage.
 
 ---
-
-
 
 
 
