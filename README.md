@@ -1,0 +1,1 @@
+# BERT-KGRel-A-Language-Model-for1-Knowledge-Graph-Relation-Prediction
