@@ -252,17 +252,17 @@ The fused representation is computed as:
 
 The final fused representation is passed through a classification layer:
 
-```math id="w52f6r"
+math
 \mathbf{o}(h,t)
-```
+
 
 Relation probabilities are computed using softmax:
 
-```math id="dl4x1k"
+math
 P(r'|h,t)
 =
-\operatorname{softmax}(\mathbf{o}(h,t))
-```
+\mathrm{softmax}(\mathbf{o}(h,t))
+
 
 ---
 
